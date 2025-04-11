@@ -22,7 +22,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #ff72d5;
+    background-color: rgb(255, 236, 245);
     z-index: 9997;
     box-sizing: border-box;
 }
@@ -32,29 +32,36 @@
     column-gap: 20px;
     display: grid;
     align-items: center;
-    max-width: 2000px !important;
+    max-width: 100% !important;
     margin: 0 auto;
     position: relative;
     box-sizing: border-box;
-    
+
 }
+.logo {
+    width: 90px;
+    height: auto;
+    justify-self: start;
+    
+    
+  }
 .navegacao{
     display: flex;
     box-sizing: border-box;
 
 }
 .btnnavegacao{
-    padding: 0 40px;
+    padding: 0 30px;
     font-weight: 400;
     background: transparent;
     color: black;
     font-size: 1rem;
-    line-height: 1.25em;
+    line-height: 1.25rem;
     cursor: pointer;
     text-decoration: none;
     border: none;
     border-radius: 4px;
-    margin: 3px 0;
+    margin: 10px 20px;
     height: 50px;
     transition: .1s;
     display: inline-flex;
@@ -62,6 +69,7 @@
     justify-content: center;
     position: relative;
     overflow: hidden;
+    left: 400px;
 }
 .name{
     font-size: 3.5rem;
@@ -88,7 +96,7 @@ form{
     
 }
 #buscar{
-    background-color: rgb(243, 65, 154);
+    background-color: rgb(255, 145, 200);
     color: black;
     height: 35px;
     width: 100px;
