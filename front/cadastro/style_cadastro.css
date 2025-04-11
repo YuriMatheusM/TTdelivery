@@ -1,0 +1,125 @@
+.pgprincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 270px 0 170px;
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+    font-weight: 100;
+    background-image: url(backgound_cadastro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cabecao{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 236, 245);
+    z-index: 9997;
+    box-sizing: border-box;
+}
+.cabeca{
+    grid-template-columns: 95px 1fr 114px 104px;
+    padding: 20px 32px;
+    column-gap: 20px;
+    display: grid;
+    align-items: center;
+    max-width: 100% !important;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+
+}
+.logo {
+    width: 90px;
+    height: auto;
+    justify-self: start;
+    
+    
+  }
+.navegacao{
+    display: flex;
+    box-sizing: border-box;
+
+}
+.btnnavegacao{
+    padding: 0 30px;
+    font-weight: 400;
+    background: transparent;
+    color: black;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 20px;
+    height: 50px;
+    transition: .1s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    left: 400px;
+}
+.formulario{
+    justify-self: center;
+    margin-top: 30px;
+    align-items: center;
+    background-color: rgb(255, 96, 170);
+    padding: 40px;
+    border-radius: 10px;
+    width: 380px;
+    height: 400px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.formulario h1{
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.formulario label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.formulario input{
+    width: 350px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 100px;
+    font-size: 14px;
+}
+.formulario select{
+    background-color: white;
+    width: 380px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 100px;
+    font-size: 14px;
+}
+.formulario button{
+    background-color: white;
+    border: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+#status{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #ffffff52;
+}
